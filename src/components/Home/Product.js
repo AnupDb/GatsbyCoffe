@@ -9,7 +9,16 @@ const Product = ({ product }) => {
         <div className="card-body text-center">
           <h6>{product.title}</h6>
           <h6>{product.price}</h6>
-          <button className="btn btn-yellow mt-3 text-capitalize">
+          <button
+            className="btn btn-yellow mt-3 text-capitalize snipcart-add-item"
+            data-item-id={product.id}
+            data-item-name={product.title}
+            data-item-price={product.price}
+            data-item-image={product.image.src}
+            data-item-weight="20"
+            data-item-url="http://myapp.com/products/bacon"
+            data-item-description="Some fresh bacon"
+          >
             add to cart
           </button>
         </div>
