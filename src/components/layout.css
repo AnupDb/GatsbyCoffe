@@ -9,7 +9,7 @@
 body {
   background: var(--mainWhite);
   color: var(--mainDark);
-  font-family: "Verdana, Geneva, Tahoma, sans-serif" !important;
+  font-family: "Lato,", "  sans-serif" !important;
 }
 h1,
 h2,
@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Courier New, Courier" monospace !important;
+  font-family: "Roboto", "Courier", "monospace" !important;
   letter-spacing: 0.25rem !important;
 }
 
